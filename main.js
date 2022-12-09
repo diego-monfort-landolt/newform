@@ -10,9 +10,9 @@ var user, password
 
 
     if(user == "Diego" && password == "1234"){
-        alert("Login Erfolgreich!");
+        alert("👌 Successfully logged in!");
     } else {
-        alert("¡Falsche Daten!")
+        alert("¡ Please Repeat! 💥 ")
     }
 }
 const text = document.querySelector('.form-control');

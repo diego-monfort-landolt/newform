@@ -38,11 +38,12 @@ input {
     width: 100%;
     border: 0;
     padding: 15px;
-    color: #fff;
+    color:#ff0404;
     font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
+    -webkit-transition: all 0.5 ease;
+    transition: all 0.5 ease;
     cursor: pointer;
+    letter-spacing: 3px;
 }
 .form-group {
     display: flex;
@@ -61,20 +62,24 @@ input {
 
 }
 .form-group h2 {
-   color: rgb(11, 10, 10);
+   color: rgb(231, 231, 21);
     font-size: 56px;
     padding: 10px;
     margin-bottom: 20px;
 }
 span {
-    opacity: 0;
-    transition: all 0.5s ease;
-    transform: translateY(50px);
+   
     display: inline-block;
 
 }
 span.fade {
-    opacity: 1;
-    transform: translateY(0px);
-    color: rgba(245, 7, 7, 0.327);
+    
+    color: rgba(245, 7, 7, 0.816);
+}
+
+
+.containerPrincipial p {
+    color: yellow;
+    border-bottom: 1px solid red;
+    opacity: 0.2;
 }
