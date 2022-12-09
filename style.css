@@ -55,8 +55,27 @@ input {
     max-width: 360px;
     padding: 45px;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(57, 56, 56, 0.2), 0 5px 5px 0 rgba(50, 50, 50, 0.2);
+    box-shadow: 0 0 20px 0 rgba(77, 1, 1, 0.2), 0 5px 5px 0 rgba(112, 3, 3, 0.2);
     border-radius: 12px 0 12px 0;
 
 
+}
+.form-group h2 {
+   color: rgb(11, 10, 10);
+    font-size: 36px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+span {
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+
+}
+span.fade {
+    opacity: 1;
+    transform: translateY(0px);
+    
+    color: rgba(233, 66, 20, 0.518);
 }
