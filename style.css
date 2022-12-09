@@ -62,9 +62,9 @@ input {
 }
 .form-group h2 {
    color: rgb(11, 10, 10);
-    font-size: 36px;
+    font-size: 56px;
     padding: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 span {
     opacity: 0;
@@ -76,6 +76,5 @@ span {
 span.fade {
     opacity: 1;
     transform: translateY(0px);
-    
-    color: rgba(233, 66, 20, 0.518);
+    color: rgba(245, 7, 7, 0.327);
 }
